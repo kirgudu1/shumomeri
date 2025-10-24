@@ -1,0 +1,1114 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <!-- ⛳ HEAD START: мета + стили -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Топ 12 лучших шумомеров по рейтингу 2025 года</title>
+  <meta name="description" content="Рейтинг лучших шумомеров 2025, как выбрать шумомер, сравнение моделей, цены и рекомендации для дома, стройки и профессионального применения." />
+  <style>
+    :root{
+      --bg:#0b0c10;           /* базовый фон */
+      --card:#111219;         /* фон карточек */
+      --muted:#9aa1af;        /* вторичный текст */
+      --text:#e9eef7;         /* основной текст */
+      --accent:#66e0a3;       /* акцент */
+      --accent-2:#8aa3ff;     /* второй акцент */
+      --danger:#ff6b6b;
+      --ok:#4ade80;
+      --border:rgba(255,255,255,.08);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius-2xl:22px;
+      --radius-xl:16px;
+      --radius-lg:12px;
+      --radius-md:10px;
+      --maxw:1200px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f7fb;
+        --card:#ffffff;
+        --muted:#5a6475;
+        --text:#11131a;
+        --accent:#0aa86a;
+        --accent-2:#3b5bff;
+        --border:rgba(0,0,0,.08);
+        --shadow:0 10px 30px rgba(0,0,0,.06);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font:16px/1.6 system-ui,-apple-system,Seg UI,Roboto,Arial,"Noto Sans",sans-serif; color:var(--text); background:radial-gradient(1200px 600px at 80% -10%, rgba(102,224,163,.12), transparent 70%), radial-gradient(900px 500px at -10% 10%, rgba(138,163,255,.18), transparent 70%), var(--bg);
+    }
+    a{color:inherit; text-decoration:none}
+    img{max-width:100%; display:block}
+    .container{width:100%; max-width:var(--maxw); margin-inline:auto; padding-inline:20px}
+    .section{padding:56px 0}
+
+    /* -------- common components / your classes ---------- */
+    .section_block{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-2xl); box-shadow:var(--shadow); padding:28px}
+    .section_block + .section_block{margin-top:18px}
+    .section_p{margin:0 0 12px 0; color:var(--text)}
+    .section_list{margin:0; padding-left:18px}
+    .section_list li{margin:8px 0}
+    .section_attention{border:1px solid var(--border); border-radius:var(--radius-xl); padding:18px; background:linear-gradient(0deg, rgba(255,107,107,.08), rgba(255,107,107,.06)); color:var(--text)}
+    .section_table{overflow:auto; border:1px solid var(--border); border-radius:var(--radius-xl)}
+    .section_table table{width:100%; border-collapse:separate; border-spacing:0; min-width:760px}
+    .section_table thead th{position:sticky; top:0; background:linear-gradient(0deg, rgba(255,255,255,.02), rgba(255,255,255,.06)); color:var(--text); text-align:left; font-weight:700}
+    .section_table th, .section_table td{padding:14px 16px; border-bottom:1px solid var(--border)}
+    .section_table tbody tr:hover{background:rgba(138,163,255,.08)}
+
+    /* --------- layout blocks --------- */
+    .hero{padding:88px 0 60px}
+    .hero-wrap{display:grid; grid-template-columns:1.2fr .8fr; gap:28px; align-items:center}
+    .hero .title{font-size:clamp(30px,4vw,48px); line-height:1.15; margin:0 0 12px}
+    .hero .subtitle{font-size:clamp(16px,2vw,20px); color:var(--muted); margin:0 0 22px}
+    .badge{display:inline-flex; gap:10px; align-items:center; color:#0a0a0a; background:linear-gradient(90deg, var(--accent), var(--accent-2)); padding:8px 12px; font-weight:700; border-radius:999px}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-2xl); box-shadow:var(--shadow); padding:24px}
+    .cta-row{display:flex; gap:12px; flex-wrap:wrap}
+
+    .btn{--btn-bg:var(--accent); --btn-fg:#0a0a0a; appearance:none; border:none; background:var(--btn-bg); color:var(--btn-fg); padding:12px 18px; font-weight:700; border-radius:14px; cursor:pointer; transition:.2s transform ease, .2s box-shadow ease}
+    .btn:hover{transform:translateY(-1px); box-shadow:0 6px 20px rgba(0,0,0,.15)}
+    .btn.secondary{--btn-bg:transparent; --btn-fg:var(--text); border:1px solid var(--border)}
+
+    .kicker{font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px}
+    h2{margin:0 0 10px; font-size:clamp(22px,2.6vw,30px)}
+    .lead{color:var(--muted)}
+
+    /* grid cards (for quick-pick block later) */
+    .grid{display:grid; gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    @media (max-width:960px){.hero-wrap{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr}}
+
+    /* table utility labels */
+    .pill{display:inline-flex; align-items:center; gap:8px; padding:.25rem .55rem; border-radius:999px; font-size:12px; font-weight:700}
+    .pill.ok{background:rgba(74,222,128,.14); color:var(--ok); border:1px solid rgba(74,222,128,.3)}
+    .pill.warn{background:rgba(255,206,86,.14); color:#ffce56; border:1px solid rgba(255,206,86,.3)}
+    .pill.info{background:rgba(138,163,255,.14); color:var(--accent-2); border:1px solid rgba(138,163,255,.3)}
+
+    /* footer */
+    footer{padding:40px 0 80px; color:var(--muted)}
+    .footer-inner{display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; border-top:1px dashed var(--border); padding-top:24px}
+
+    /* smooth anchor target offset */
+    :target{scroll-margin-top:86px}
+  </style>
+  <!-- ⛳ HEAD END -->
+  
+  
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(101256739, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="watch/101256739-1" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+  <!-- 🟣 HERO START: шапка + оффер -->
+  <header class="container hero" id="top">
+    <div class="hero-wrap">
+      <div>
+        <div class="badge" aria-label="Экспертный рейтинг">★ Рейтинг 2025</div>
+        <h1 class="title">Топ 12 лучших шумомеров по рейтингу 2025 года</h1>
+        <p class="subtitle">Выбор моделей для дома, стройки и профессионального применения. Сравнение по классу точности, функциям и цене.</p>
+        <div class="cta-row">
+          <!-- Все CTA приведены к «Узнать цену» по твоему требованию -->
+          <a class="btn" href="#rating">Узнать цену</a>
+          <a class="btn secondary" href="#howto">Узнать цену</a>
+        </div>
+      </div>
+      <div class="card" aria-hidden="true">
+        <!-- Декоративная иллюстрация/превью: можно заменить на картинку прибора -->
+        <svg viewBox="0 0 520 320" width="100%" height="auto" role="img" aria-label="Иллюстрация шумомера">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="var(--accent)"/>
+              <stop offset="1" stop-color="var(--accent-2)"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="520" height="320" rx="18" fill="url(#g1)" opacity=".14" />
+          <g transform="translate(60,40)">
+            <rect x="0" y="0" width="180" height="240" rx="22" fill="var(--card)" stroke="var(--border)"/>
+            <rect x="16" y="16" width="148" height="120" rx="10" fill="rgba(138,163,255,.15)" stroke="rgba(138,163,255,.35)"/>
+            <rect x="28" y="40" width="124" height="18" rx="8" fill="rgba(255,255,255,.2)"/>
+            <rect x="28" y="70" width="88" height="18" rx="8" fill="rgba(255,255,255,.2)"/>
+            <circle cx="90" cy="188" r="34" fill="rgba(102,224,163,.16)" stroke="rgba(102,224,163,.4)"/>
+            <rect x="75" y="228" width="30" height="12" rx="6" fill="rgba(255,255,255,.2)"/>
+          </g>
+          <g transform="translate(280,70)">
+            <path d="M0,90 C20,60 40,120 60,90 C80,60 100,120 120,90" stroke="var(--text)" stroke-width="4" fill="none" opacity=".35"/>
+            <path d="M0,90 C20,40 40,140 60,70 C80,100 100,60 120,110" stroke="var(--accent)" stroke-width="5" fill="none"/>
+            <rect x="0" y="120" width="140" height="10" rx="5" fill="rgba(255,255,255,.35)"/>
+            <rect x="0" y="140" width="100" height="10" rx="5" fill="rgba(255,255,255,.2)"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <!-- 🟣 HERO END -->
+
+  <main>
+ <!-- 🔵 HOWTO START: как выбрать -->
+<section id="howto" class="section">
+  <div class="container">
+    <div class="kicker">Как выбрать</div>
+    <h2>Критерии выбора шумомера</h2>
+    <p class="lead">Мини-гайд по ключевым параметрам: класс точности, диапазон/динамика, измерительные режимы, логирование и поверка.</p>
+
+    <!-- 📝 ШПАРГАЛКА (расширенная и без воды) -->
+    <div class="section_block">
+      <p class="section_p"><strong>Шпаргалка:</strong></p>
+      <ul class="section_list">
+        <li><strong>Класс точности:</strong> для дома/стройки берите <strong>Class 2</strong> (тип. погрешность ±1.5 дБ); <strong>Class 1</strong> — только если требуют нормативы/лаборатория.</li>
+        <li><strong>Диапазон/шумовой порог:</strong> универсально <strong>30–130 дБ</strong>; нижняя граница ≤30 дБ — чтобы мерить фон в квартире и ночью.</li>
+        <li><strong>Частотные взвешивания:</strong> <strong>A</strong> — по умолчанию для «как слышит человек»; <strong>C</strong> — для низких частот/промобъектов.</li>
+        <li><strong>Отклик:</strong> <strong>Fast ≈125 мс</strong> — короткие пики; <strong>Slow ≈1 с</strong> — стабильный фон; <strong>Impulse</strong> — редкая потребность.</li>
+        <li><strong>Логирование/интерфейсы:</strong> если нужны отчёты — память + <strong>USB/Bluetooth</strong> и выгрузка в CSV/приложение.</li>
+        <li><strong>Поверка/реестр СИ РФ:</strong> для официальных замеров берите версию <strong>с поверкой</strong> и внесением в реестр; периодичность обычно 1 год.</li>
+        <li><strong>Микрофон и аксессуары:</strong> ветрозащита обязательна для улицы; резьба <strong>1/4″</strong> под штатив — для стабильных показаний.</li>
+        <li><strong>Практика замера:</strong> держите на расстоянии 1 м от поверхностей, не касайтесь корпусом стен/рук, не перекрывайте капсюль.</li>
+      </ul>
+      <div class="cta-row" style="margin-top:12px">
+        <a class="btn secondary" href="#rating">Узнать цену</a>
+      </div>
+    </div>
+    <!-- /📝 ШПАРГАЛКА -->
+
+    <!-- 📊 КРИТЕРИИ (таблица) -->
+    <div class="section_table" style="margin-top:16px">
+      <table>
+        <thead>
+          <tr>
+            <th>Критерий</th>
+            <th>Что это значит</th>
+            <th>Рекомендация</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Класс точности</td>
+            <td>Class 1 — эталон; Class 2 — практические замеры</td>
+            <td><span class="pill ok">Для дома/стройки — Class 2</span></td>
+          </tr>
+          <tr>
+            <td>Диапазон и динамика</td>
+            <td>Рабочий интервал и нижний шумовой порог</td>
+            <td><strong>30–130 дБ</strong>, нижняя граница ≤30 дБ</td>
+          </tr>
+          <tr>
+            <td>Частотные коррекции</td>
+            <td>Взвешивания под спектр шума</td>
+            <td><span class="pill info">A — базово, C — промышленный низ</span></td>
+          </tr>
+          <tr>
+            <td>Отклик</td>
+            <td>Скорость усреднения значения</td>
+            <td>Fast ≈125 мс • Slow ≈1 с</td>
+          </tr>
+          <tr>
+            <td>Логирование</td>
+            <td>Запись рядов и экспорт данных</td>
+            <td><span class="pill warn">USB/BT + CSV/приложение</span></td>
+          </tr>
+          <tr>
+            <td>Поверка</td>
+            <td>Подтверждение точности, реестр СИ РФ</td>
+            <td>Обязательно для актов/экспертиз</td>
+          </tr>
+          <tr>
+            <td>Оснастка</td>
+            <td>Аксессуары и монтаж</td>
+            <td>Ветрозащита, штатив 1/4″ — must-have</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- /📊 КРИТЕРИИ -->
+
+    <!-- 🧭 БЫСТРЫЕ РЕШЕНИЯ (мини-матрица выбора) -->
+    <div class="section_table" style="margin-top:12px">
+      <table>
+        <thead>
+          <tr>
+            <th>Задача</th>
+            <th>Минимум</th>
+            <th>Лучше взять</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Квартира/офис</td>
+            <td>Class 2 • 30–130 дБ • A • Slow</td>
+            <td>BT/USB для логирования поездок по комнатам</td>
+          </tr>
+          <tr>
+            <td>Стройка/приёмка работ</td>
+            <td>Class 2 • A/C • Fast/Slow • штатив</td>
+            <td>Память + отчёт CSV, ветрозащита</td>
+          </tr>
+          <tr>
+            <td>Охрана труда/экология</td>
+            <td>Class 2 + поверка • A/C • протокол</td>
+            <td>Интегрирующие метрики (Leq/SEL), ПО для отчётов</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- /🧭 БЫСТРЫЕ РЕШЕНИЯ -->
+  </div>
+</section>
+<!-- 🔵 HOWTO END -->
+
+
+    <!-- 🟢 RATING START: таблица рейтинга -->
+    <section id="rating" class="section">
+      <div class="container">
+        <div class="kicker">Рейтинг</div>
+        <h2>Лучшие шумомеры 2025 — сравнение</h2>
+        <p class="lead">Таблица для быстрого выбора. После утверждения вставим актуальные модели, цены и ссылки на магазины/CPA.</p>
+
+        <div class="section_table">
+          <table>
+            <thead>
+              <tr>
+                <th>Модель</th>
+                <th>Класс</th>
+                <th>Диапазон</th>
+                <th>Функции</th>
+                <th>Цена, ₽</th>
+                <th>Назначение</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="m-megeon-92180">
+                <td><strong>МЕГЕОН 92180</strong></td>
+                <td>Type 2 / поверка</td>
+                <td>30–130</td>
+                <td>A/C, Fast/Slow, внесён в реестр</td>
+                <td>≈ 14 800</td>
+                <td>Стройка, проф</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-rgk-sm20">
+                <td><strong>RGK SM-20</strong></td>
+                <td>Бытовой</td>
+                <td>30–130</td>
+                <td>Max/Min, Hold</td>
+                <td>≈ 2 300</td>
+                <td>Дом, офис</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-unit-ut353bt">
+                <td><strong>UNI-T UT353BT</strong></td>
+                <td>Бытовой</td>
+                <td>30–130</td>
+                <td>Bluetooth, логирование</td>
+                <td>≈ 3 300</td>
+                <td>Быстрые замеры</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-cem-dt85a">
+                <td><strong>CEM DT-85A</strong></td>
+                <td>Type 2</td>
+                <td>40–130</td>
+                <td>Штатив, подсветка</td>
+                <td>≈ 6 985</td>
+                <td>Стройка</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-center-322">
+                <td><strong>Center 322</strong></td>
+                <td>IEC Type 2</td>
+                <td>30–130</td>
+                <td>AC выход, точный</td>
+                <td>≈ 30 000</td>
+                <td>Полупроф</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-testo-815">
+                <td><strong>Testo 815</strong></td>
+                <td>IEC Type 2</td>
+                <td>32–130</td>
+                <td>Поверка, надёжность</td>
+                <td>≈ 40 000</td>
+                <td>Промышленность</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-svantek-973">
+                <td><strong>Svantek SV-973</strong></td>
+                <td>IEC Type 2</td>
+                <td>25–140</td>
+                <td>Интегрирующий анализ</td>
+                <td>≈ 82 000</td>
+                <td>Экология, АТП</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-megeon-92140">
+                <td><strong>МЕГЕОН 92140</strong></td>
+                <td>Type 2</td>
+                <td>30–130</td>
+                <td>Регистратор, память</td>
+                <td>≈ 7 150</td>
+                <td>Мониторинг</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-benetech-gm1357">
+                <td><strong>Benetech GM1357</strong></td>
+                <td>Бюджет+</td>
+                <td>30–130</td>
+                <td>Автоотключение, подсветка</td>
+                <td>≈ 3 100–4 600</td>
+                <td>Дом/офис</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-ada-zsm135">
+                <td><strong>ADA ZSM-135</strong></td>
+                <td>Бытовой</td>
+                <td>30–130</td>
+                <td>Подсветка, Hold</td>
+                <td>≈ 2 960</td>
+                <td>Дом/офис</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-megeon-92020">
+                <td><strong>МЕГЕОН 92020</strong></td>
+                <td>Проф. серия</td>
+                <td>20–130</td>
+                <td>Логирование, отчёты</td>
+                <td>≈ 67 640</td>
+                <td>Проф. мониторинг</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+              <tr id="m-unit-ut353">
+                <td><strong>UNI-T UT353</strong></td>
+                <td>Бытовой</td>
+                <td>30–130</td>
+                <td>—</td>
+                <td>≈ 2 600</td>
+                <td>Дом</td>
+                <td><a class="btn" href="#">Узнать цену</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="section_block" style="margin-top:16px">
+          <div class="section_attention">
+            <p class="section_p"><strong>Примечание:</strong> цены — ориентировочные. Для официальных измерений выбирайте модели с поверкой и внесением в реестр СИ РФ.</p>
+            <div class="cta-row" style="margin-top:8px">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 🟢 RATING END -->
+	
+	<!-- 🧩 PRODUCT DETAILS START: МЕГЕОН 92180 -->
+<section id="desc-megeon-92180" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">1. МЕГЕОН 92180 — краткое описание</h3>
+      <p class="section_p">
+        Портативный шумомер класса <strong>Type 2</strong> с диапазоном <strong>30–130 дБ</strong>, поддержкой
+        <strong>A/C-взвешивания</strong> и режимов <strong>Fast/Slow</strong>. Выпускается в версии <strong>с поверкой</strong>,
+        внесён в реестр средств измерений РФ — подходит для строительного контроля, охраны труда и служебных проверок.
+        Предусмотрено крепление на штатив <strong>1/4″</strong> и ветрозащита для стабильных показаний.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Версия <strong>с поверкой</strong>, внесение в реестр СИ РФ.</li>
+            <li>Диапазон 30–130 дБ, A/C и Fast/Slow — закрывает большинство задач.</li>
+            <li>Штатив 1/4″ и ветрозащита в комплекте (зависит от поставки).</li>
+            <li>Понятное управление, читаемый дисплей.</li>
+          </ul>
+        </div>
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет встроенного логирования/USB — отчёты не выгружаются из прибора.</li>
+            <li>Класс 2: для лабораторных требований может понадобиться Class 1.</li>
+          </ul>
+        </div>
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 14 800 ₽</strong> (версия с поверкой может стоить дороже).</p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> строительные бригады, ТБ/ОТ, проверка условий труда, приёмка работ и служебные замеры,
+          где важна поверка и соответствие требованиям.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: МЕГЕОН 92180 -->
+
+<!-- 🧩 PRODUCT DETAILS START: 2. RGK SM-20 -->
+<section id="desc-rgk-sm20" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">2. RGK SM-20 — краткое описание</h3>
+      <p class="section_p">
+        Компактный бытовой шумомер <strong>RGK SM-20</strong> создан для повседневных замеров — в квартире, офисе или на улице.
+        Прибор измеряет уровень звука в диапазоне <strong>30–130 дБ</strong>, поддерживает режимы <strong>Fast</strong> и
+        <strong>Slow</strong>, а также фиксирует <strong>максимальные и минимальные значения</strong>. Отличается простым управлением
+        и мгновенной готовностью к работе — включил и измеряешь.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Доступная цена и высокая точность для своего класса.</li>
+            <li>Лёгкий и компактный — удобно брать с собой.</li>
+            <li>Функции <strong>Max/Min</strong> и <strong>Hold</strong> для фиксации показаний.</li>
+            <li>Большой ЖК-дисплей с подсветкой.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет возможности поверки — не подходит для официальных замеров.</li>
+            <li>Не поддерживает передачу данных и логирование.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 2 300 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> бытовое использование, проверка уровня шума в квартире, офисе, на улице
+          или в автомобиле. Отличный выбор для первого знакомства с измерениями шума.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 2. RGK SM-20 -->
+
+
+
+<!-- 🧩 PRODUCT DETAILS START: 3. UNI-T UT353BT -->
+<section id="desc-unit-ut353bt" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">3. UNI-T UT353BT — краткое описание</h3>
+      <p class="section_p">
+        <strong>UNI-T UT353BT</strong> — универсальный бытовой шумомер с модулем <strong>Bluetooth</strong> для передачи данных на смартфон.
+        Работает в диапазоне <strong>30–130 дБ</strong> и поддерживает режимы <strong>Fast</strong> и <strong>Slow</strong>.
+        Прибор измеряет текущие, максимальные и минимальные значения, а также передаёт результаты в фирменное приложение.
+        Отличается хорошей чувствительностью микрофона и удобным корпусом, который легко держать одной рукой.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Передача данных по <strong>Bluetooth</strong> в приложение UNI-T.</li>
+            <li>Измерения <strong>Min/Max</strong>, функция <strong>Hold</strong>.</li>
+            <li>Хорошее качество сборки и отзывчивый датчик.</li>
+            <li>Энергосберегающий режим, автоотключение.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет поверки, не подходит для сертифицированных замеров.</li>
+            <li>Приложение ограничено базовой визуализацией без экспортных отчётов.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 3 300 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> пользователям, которым важно вести цифровую запись замеров на смартфоне.
+          Подходит для дома, офиса, машин и аудио-тестов с передачей данных по Bluetooth.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 3. UNI-T UT353BT -->
+
+
+<!-- 🧩 PRODUCT DETAILS START: 4. CEM DT-85A -->
+<section id="desc-cem-dt85a" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">4. CEM DT-85A — краткое описание</h3>
+      <p class="section_p">
+        <strong>CEM DT-85A</strong> — надёжный шумомер класса <strong>Type 2</strong>, предназначенный для строительных и промышленных задач.
+        Он измеряет уровень звука в диапазоне <strong>40–130 дБ</strong> и оснащён большими кнопками, контрастным экраном и возможностью установки на штатив.
+        Поддерживаются режимы <strong>Fast/Slow</strong> и фиксация <strong>Max/Min</strong> значений.
+        Прибор стабильно работает при вибрациях, что делает его отличным инструментом для стройки и акустических испытаний.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Прочный корпус, устойчивый к пыли и механическим воздействиям.</li>
+            <li>Поддержка режимов <strong>Fast/Slow</strong> и функций <strong>Max/Min</strong>.</li>
+            <li>Есть крепление под штатив и разъём для внешнего питания.</li>
+            <li>Высокая стабильность показаний даже в шумной среде.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет поверки и возможности калибровки через программное обеспечение.</li>
+            <li>Не поддерживает запись и экспорт данных.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 6 985 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> монтажным и строительным организациям, где важна прочность прибора, быстрый отклик и возможность работы «в поле».
+          Отличный выбор для замеров на стройплощадке и при приёмке шумных объектов.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 4. CEM DT-85A -->
+
+
+<!-- 🧩 PRODUCT DETAILS START: 5. Center 322 -->
+<section id="desc-center-322" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">5. Center 322 — краткое описание</h3>
+      <p class="section_p">
+        <strong>Center 322</strong> — профессиональный шумомер класса <strong>IEC Type 2</strong> с точными измерениями и возможностью подключения к осциллографу
+        или внешним системам анализа. Рабочий диапазон <strong>30–130 дБ</strong>, поддержка взвешиваний <strong>A/C</strong> и режимов <strong>Fast/Slow</strong>.
+        Прибор оснащён <strong>AC/DC выходом</strong> для записи сигнала, большим экраном с подсветкой и корпусом с прорезиненными вставками.
+        Используется для контроля звука на предприятиях, проверок СИЗ, акустических исследований и аудиоинсталляций.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Высокая точность измерений, стабильность и надёжность.</li>
+            <li>Наличие <strong>AC/DC выхода</strong> для записи звукового сигнала.</li>
+            <li>Поверка доступна, прибор внесён в реестр СИ РФ.</li>
+            <li>Хорошо подходит для профессионального использования и контроля на производстве.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет встроенной памяти и логирования — данные фиксируются только внешне.</li>
+            <li>Цена выше среднего по рынку.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 30 000 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> специалистам по охране труда, акустикам, инженерам и исследователям, 
+          которым нужен точный и надёжный прибор с возможностью подключения к внешним устройствам и системам анализа.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 5. Center 322 -->
+<!-- 🧩 PRODUCT DETAILS START: 6. Testo 815 -->
+<section id="desc-testo-815" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">6. Testo 815 — краткое описание</h3>
+      <p class="section_p">
+        <strong>Testo 815</strong> — профессиональный шумомер класса <strong>IEC Type 2</strong> от немецкого производителя Testo.
+        Отличается высокой точностью, стабильной калибровкой и возможностью поверки. Работает в диапазоне <strong>32–130 дБ</strong>,
+        поддерживает <strong>A/C-взвешивания</strong> и режимы <strong>Fast/Slow</strong>. Предусмотрен разъём для подключения 
+        внешнего калибратора и штатива, а также функция компенсации ветровых шумов. Корпус защищён от ударов и влаги, что делает прибор пригодным 
+        для промышленных и лабораторных условий.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Немецкое качество и надёжность конструкции.</li>
+            <li>Высокая точность и возможность ежегодной поверки.</li>
+            <li>Совместим с внешними калибраторами Testo.</li>
+            <li>Подходит для профессиональных измерений и сертифицированных отчётов.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет встроенного интерфейса для логирования данных.</li>
+            <li>Цена выше бытовых аналогов.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 40 000 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> инженерам по охране труда, экологам, лабораториям и промышленным организациям,
+          которым необходим точный сертифицированный прибор для официальных измерений уровня шума.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 6. Testo 815 -->
+<!-- 🧩 PRODUCT DETAILS START: 7. Svantek SV-973 -->
+<section id="desc-svantek-973" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">7. Svantek SV-973 — краткое описание</h3>
+      <p class="section_p">
+        <strong>Svantek SV-973</strong> — интегрирующий профессиональный шумомер польского производства, предназначенный для экологического мониторинга,
+        охраны труда и акустических исследований. Прибор измеряет в диапазоне <strong>25–140 дБ</strong>, имеет сенсор с высоким динамическим диапазоном 
+        и функцию интегрирования для расчёта <strong>Leq, SEL, Lmax, Lmin</strong> и других параметров. Оснащён интерфейсами <strong>USB и Bluetooth</strong>,
+        встроенной памятью и цветным дисплеем с графическим отображением результатов. Внесён в реестр средств измерений РФ.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Профессиональный уровень точности и широкий диапазон (25–140 дБ).</li>
+            <li>Интегрирующий анализатор звука — расчёт Leq, SEL, Lpeak и др.</li>
+            <li>Память, Bluetooth и USB для выгрузки отчётов и анализа.</li>
+            <li>Поверка и внесение в реестр СИ РФ.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Высокая стоимость — подходит только для профессионального применения.</li>
+            <li>Для корректной работы требует регулярной калибровки.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 82 000 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> экологическим службам, лабораториям, специалистам по акустике и охране труда.
+          Это прибор для точных интегральных измерений, сертифицированных отчётов и длительного мониторинга.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 7. Svantek SV-973 -->
+<!-- 🧩 PRODUCT DETAILS START: 8. МЕГЕОН 92140 -->
+<section id="desc-megeon-92140" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">8. МЕГЕОН 92140 — краткое описание</h3>
+      <p class="section_p">
+        <strong>МЕГЕОН 92140</strong> — цифровой шумомер класса <strong>Type 2</strong> с функцией логирования и встроенной памятью.
+        Работает в диапазоне <strong>30–130 дБ</strong> и поддерживает режимы <strong>Fast/Slow</strong> и взвешивание по шкале <strong>A/C</strong>.
+        Прибор способен хранить результаты измерений для последующего анализа, оснащён USB-интерфейсом и удобным экраном с подсветкой.
+        Подходит для длительных измерений, мониторинга промышленных зон и строительных площадок.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Наличие <strong>памяти и логирования</strong> для хранения замеров.</li>
+            <li>Интерфейс <strong>USB</strong> для передачи данных на компьютер.</li>
+            <li>Поддержка <strong>A/C взвешиваний</strong> и режимов Fast/Slow.</li>
+            <li>Яркая подсветка и простое управление.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Не имеет поверки — не подойдёт для сертифицированных измерений.</li>
+            <li>Программное обеспечение базовое, без расширенной аналитики.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 7 150 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> для строительных и производственных компаний, где нужен доступный прибор
+          с функцией записи данных и стабильными показаниями при длительном мониторинге уровня шума.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 8. МЕГЕОН 92140 -->
+<!-- 🧩 PRODUCT DETAILS START: 9. Benetech GM1357 -->
+<section id="desc-benetech-gm1357" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">9. Benetech GM1357 — краткое описание</h3>
+      <p class="section_p">
+        <strong>Benetech GM1357</strong> — популярный бытовой шумомер с отличным соотношением цены и функциональности.
+        Прибор измеряет уровень звука в диапазоне <strong>30–130 дБ</strong>, поддерживает <strong>Fast/Slow</strong> режимы и A/C-взвешивания.
+        Оснащён большим ЖК-дисплеем с подсветкой, фиксирует <strong>максимальные и минимальные значения</strong> и имеет функцию автоотключения.
+        Подходит для домашнего использования, офисов, проверки акустики и контроля уровня громкости.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Точная работа в своём ценовом диапазоне.</li>
+            <li>Удобный экран с подсветкой, крупные цифры.</li>
+            <li>Простое управление одной рукой.</li>
+            <li>Есть функции <strong>Max/Min</strong> и автоотключения.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет возможности поверки и калибровки.</li>
+            <li>Не предусмотрено подключение к ПК или смартфону.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 3 100–4 600 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> пользователям, которым нужен надёжный и недорогой прибор для бытового контроля шума —
+          в квартире, на улице, при настройке акустики или измерении громкости бытовой техники.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 9. Benetech GM1357 -->
+<!-- 🧩 PRODUCT DETAILS START: 10. ADA ZSM-135 -->
+<section id="desc-ada-zsm135" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">10. ADA ZSM-135 — краткое описание</h3>
+      <p class="section_p">
+        <strong>ADA ZSM-135</strong> — компактный и точный бытовой шумомер для повседневных задач. 
+        Работает в диапазоне <strong>30–130 дБ</strong>, поддерживает <strong>A/C-взвешивания</strong> и режимы <strong>Fast/Slow</strong>. 
+        Отличается высокой скоростью отклика и информативным ЖК-дисплеем с подсветкой. 
+        Благодаря малым габаритам и лёгкому корпусу прибор удобно держать одной рукой, что делает его идеальным для дома, офиса или авто.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Компактный размер и лёгкий вес — удобно брать с собой.</li>
+            <li>Быстрый отклик на изменение уровня звука.</li>
+            <li>Яркий дисплей с крупными цифрами и подсветкой.</li>
+            <li>Режим фиксации показаний <strong>Hold</strong> и автоотключение.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Не поддерживает поверку и экспорт данных.</li>
+            <li>При частых изменениях шума показания могут колебаться.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 2 960 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> для бытового контроля уровня шума — дома, на даче, в офисе, в автомобиле или при проверке шумоизоляции помещений. 
+          Прост в обращении и точен для своей ценовой категории.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 10. ADA ZSM-135 -->
+<!-- 🧩 PRODUCT DETAILS START: 11. МЕГЕОН 92020 -->
+<section id="desc-megeon-92020" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">11. МЕГЕОН 92020 — краткое описание</h3>
+      <p class="section_p">
+        <strong>МЕГЕОН 92020</strong> — профессиональный шумомер серии Pro, разработанный для акустических лабораторий, служб охраны труда 
+        и экологического мониторинга. Прибор класса <strong>Type 1</strong> обеспечивает высокую точность измерений в диапазоне <strong>20–130 дБ</strong>, 
+        поддерживает взвешивания <strong>A/C</strong>, режимы <strong>Fast/Slow</strong> и автоматическое вычисление интегральных параметров шума 
+        (<strong>Leq, Lmax, Lmin</strong>). Оснащён внутренней памятью, интерфейсом USB и ПО для анализа данных на ПК. Может использоваться в составе 
+        сертифицированных измерительных систем.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Высокая точность измерений (до ±1 дБ).</li>
+            <li>Встроенное <strong>логирование</strong> и передача данных через USB.</li>
+            <li>Интегрирующие функции (Leq, SEL, Lpeak).</li>
+            <li>Возможность поверки и включения в метрологические отчёты.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Стоимость выше, чем у бытовых моделей.</li>
+            <li>Требует навыков работы с программным обеспечением.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 67 640 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> организациям, занимающимся экологическим и производственным мониторингом, лабораториям и специалистам 
+          по акустике, которым необходим сертифицированный прибор с записью и последующей обработкой данных.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 11. МЕГЕОН 92020 -->
+<!-- 🧩 PRODUCT DETAILS START: 12. UNI-T UT353 -->
+<section id="desc-unit-ut353" class="section">
+  <div class="container">
+    <div class="section_block">
+      <h3 style="margin-top:0">12. UNI-T UT353 — краткое описание</h3>
+      <p class="section_p">
+        <strong>UNI-T UT353</strong> — базовый цифровой шумомер для домашнего и офисного использования. 
+        Это компактная и простая модель, измеряющая уровень звука в диапазоне <strong>30–130 дБ</strong> с точностью ±1.5 дБ. 
+        Прибор поддерживает <strong>режимы Fast/Slow</strong>, фиксирует <strong>минимальные и максимальные значения</strong> и 
+        оснащён подсвечиваемым ЖК-дисплеем. Он не имеет Bluetooth и памяти, но идеально подходит для быстрых замеров и базового контроля акустики.
+      </p>
+
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Плюсы</h4>
+          <ul class="section_list">
+            <li>Низкая цена при достаточной точности измерений.</li>
+            <li>Компактный и лёгкий корпус — удобно брать с собой.</li>
+            <li>Простое управление одной кнопкой и понятный интерфейс.</li>
+            <li>Подходит для тестов акустики, проверки бытового шума, уровня громкости устройств.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Минусы</h4>
+          <ul class="section_list">
+            <li>Нет памяти, Bluetooth и интерфейсов передачи данных.</li>
+            <li>Без поверки — только для неофициальных измерений.</li>
+          </ul>
+        </div>
+
+        <div class="section_block" style="padding:18px">
+          <h4 style="margin:0 0 6px">Средняя цена</h4>
+          <p class="section_p" style="margin-bottom:10px"><strong>≈ 2 600 ₽</strong></p>
+          <div class="cta-row">
+            <a class="btn" href="#rating">Узнать цену</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_attention" style="margin-top:14px">
+        <p class="section_p" style="margin:0">
+          <strong>Кому подойдёт:</strong> начинающим пользователям, которым нужен недорогой и точный прибор 
+          для измерения уровня звука дома, в офисе, при проверке техники или шумоизоляции.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🧩 PRODUCT DETAILS END: 12. UNI-T UT353 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 🟠 QUICKPICK START: быстрый подбор -->
+    <section id="quickpick" class="section">
+      <div class="container">
+        <div class="kicker">Подбор</div>
+        <h2>Подберите шумомер под задачу</h2>
+        <div class="grid cols-3">
+          <div class="section_block">
+            <h3 style="margin:0 0 8px">🏠 Дом и офис</h3>
+            <p class="section_p">Недорогие, простые в использовании модели для бытовых замеров.</p>
+            <div class="cta-row"><a class="btn secondary" href="#rating">Узнать цену</a></div>
+          </div>
+          <div class="section_block">
+            <h3 style="margin:0 0 8px">🏗 Стройка и ремонт</h3>
+            <p class="section_p">Класс 2, стойкость, крепление на штатив, базовое логирование.</p>
+            <div class="cta-row"><a class="btn secondary" href="#rating">Узнать цену</a></div>
+          </div>
+          <div class="section_block">
+            <h3 style="margin:0 0 8px">🏭 Профессиональные измерения</h3>
+            <p class="section_p">Модели с поверкой, расширенными режимами и хранением данных.</p>
+            <div class="cta-row"><a class="btn secondary" href="#rating">Узнать цену</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 🟠 QUICKPICK END -->
+  </main>
+
+  <!-- ⚫ FOOTER START: подвал -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2025 Рейтинг шумомеров. Подбор приборов для дома, стройки и профессионалов.</div>
+      <nav style="display:flex; gap:18px">
+        <a href="#top">Наверх ↑</a>
+        <a href="#howto">Как выбрать</a>
+        <a href="#rating">Рейтинг</a>
+      </nav>
+    </div>
+  </footer>
+  <!-- ⚫ FOOTER END -->
+
+  <!-- 🟡 SCRIPTS START: плавный скролл -->
+  <script>
+    // Плавный скролл к якорям (без внешних библиотек)
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        const id=a.getAttribute('href');
+        if(id.length>1){ e.preventDefault(); document.querySelector(id)?.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+  </script>
+  <!-- 🟡 SCRIPTS END -->
+</body>
+</html>
